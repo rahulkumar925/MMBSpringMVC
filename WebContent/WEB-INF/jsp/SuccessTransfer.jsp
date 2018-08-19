@@ -12,12 +12,13 @@
 <a href="home"><h2><b>Home</b></h2></a>
 </div>
 <article>
-	<div><jstl:if test="${bal>=0 }">
-			Successfully withdrawal: <br></br>
-			account Balance : ${bal}		
+	<div><jstl:if test="${debit>=0 }">
+			Successfully Debited: <br></br>
+			Your Account Balance : ${debit} <br></br>
+			Receiver Account Balance : ${credit}	<br></br>	
 		</jstl:if>
-		<jstl:if test="${bal<0 }">
-	     <h3>Insufficient Balance</h3>	
+		<jstl:if test="${debit<0 }">
+	     <h3>Transfer Unsuccessful: Sender does not have sufficient Balance</h3>	
 		</jstl:if>
 	</div>
 </article>

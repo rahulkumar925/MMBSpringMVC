@@ -9,7 +9,7 @@
 </head>
 <body>
 <div align="left">
-<a href="home"><h4><b>Home</b></h4></a>
+<a href="home"><h2><b>Home</b></h2></a>
 </div>
 <table border="1" align="center">
 		<tr>

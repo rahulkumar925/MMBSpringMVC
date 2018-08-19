@@ -11,7 +11,7 @@
 <a href="home"><h2><b>Home</b></h2></a>
 </div>
 <div align="center">
-<h2>Account Number does not exist</h2>
+<h2>Sender Account Number does not exist</h2>
 </div>
 </body>
 </html>
